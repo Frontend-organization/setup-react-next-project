@@ -1,0 +1,5 @@
+{
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "roots": ["<rootDir>/src"],
+  "setupFiles": ["<rootDir>/setupTests.ts"]
+}

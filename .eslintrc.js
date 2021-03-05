@@ -26,5 +26,10 @@ module.exports = {
     'prettier/prettier': 'error',
     'space-before-function-paren': 'off',
     'react/prop-types': 'off'
+  },
+  settings: {
+    react: {
+      version: 'detect'
+    }
   }
 }
