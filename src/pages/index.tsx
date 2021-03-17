@@ -1,22 +1,16 @@
-import React from 'react'
 import Head from 'next/head'
-import { HomeWrapper } from '../styles/pages/Home'
-import Button from '../components/button/button'
+import Home from '../layouts/Home'
 
-const Home: React.FC = () => {
+const WebsiteHome = (): JSX.Element => {
   return (
-    <div>
+    <div data-testid="website-home">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <HomeWrapper>
-        <Button onPress={() => console.log('yeah bro')}>
-          Rendering a button component
-        </Button>
-      </HomeWrapper>
+      <Home />
     </div>
   )
 }
 
-export default Home
+export default WebsiteHome

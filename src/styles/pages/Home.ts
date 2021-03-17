@@ -9,9 +9,4 @@ export const HomeWrapper = styled.main`
   min-height: 100vh;
   width: 100%;
   overflow: hidden;
-  h1 {
-    color: ${({ theme }) => theme.colors.primary};
-    font-weight: 400;
-    text-transform: uppercase;
-  }
 `

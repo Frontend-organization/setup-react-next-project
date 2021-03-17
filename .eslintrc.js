@@ -25,7 +25,9 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'space-before-function-paren': 'off',
-    'react/prop-types': 'off'
+    'react/prop-types': 'off',
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off'
   },
   settings: {
     react: {
