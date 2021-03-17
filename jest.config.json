@@ -1,0 +1,10 @@
+{
+  "testPathIgnorePatterns": ["/node_modules/", "/__tests__/utils.tsx"],
+  "roots": ["<rootDir>/src", "<rootDir>/__tests__/"],
+  "setupFilesAfterEnv": ["<rootDir>/setupTests.ts"],
+  "collectCoverageFrom": [
+    "src/**/*.{ts,js,tsx,jsx}",
+    "!src/**/_*.{ts,tsx}",
+    "!__tests__/utils.tsx"
+  ]
+}
